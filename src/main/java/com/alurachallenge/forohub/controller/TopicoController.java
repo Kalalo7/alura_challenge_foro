@@ -2,6 +2,9 @@ package com.alurachallenge.forohub.controller;
 
 import com.alurachallenge.forohub.domain.curso.Curso;
 import com.alurachallenge.forohub.domain.curso.CursoRepository;
+import com.alurachallenge.forohub.domain.respuesta.DetalleRespuestaDTO;
+import com.alurachallenge.forohub.domain.respuesta.Respuesta;
+import com.alurachallenge.forohub.domain.respuesta.RespuestaRepository;
 import com.alurachallenge.forohub.domain.topico.*;
 import com.alurachallenge.forohub.domain.topico.validaciones.actualizar.ValidarTopicoActualizado;
 import com.alurachallenge.forohub.domain.topico.validaciones.crear.ValidarTopicoCreado;
